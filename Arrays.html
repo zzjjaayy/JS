@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Arrays</title>
+</head>
+<body>
+    <script>
+        // arrays used to store multiple values in one variable
+        var myArray = [2, "jay", true];
+        // a JS array can store multiple data types in one variable
+
+        // getting elements
+        var index0 = myArray[0]; // stores 2
+        var index1 = myArray[1]; // stores "jay"
+
+        // modifying data
+        myArray[2] = false; 
+        // changes the value of the element at that particular index
+
+        
+        // NESTED OR MULTI DIMENSIONAL ARRAYS
+        var array1 = ["jay", 25, ["jay", "haha", 8], 8];
+        // a array can be stored in an array
+
+        // getting elements of a multi dimensional array
+        var position = array1[2][1]; // will store "haha" in the variable.
+
+        // modifying elements
+        array1[2][1] = "rathod";
+    </script>
+
+    <script>        
+        // Functions for Arrays :- 
+        // {same for both one and multi dimensional arrays}
+
+        // 1. push() : used to append an element to the array
+        array1.push("hehe"); // this element will be added at the end.
+
+        // 2. unshift() adds the element in the beginning
+        array1.shift("hahah");
+
+        // 2. pop() : remove the last element from the array
+        array1.pop(); // returns the removed element {}can be stored in var
+
+        // shift() : removes the first element from the array
+        array1.shift() // returns the removed element
+    </script>
+
+    
+</body>
+</html>
