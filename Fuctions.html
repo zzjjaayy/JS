@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+        // functions
+        // used to write reusable code and organise better
+
+        var global = 10;
+        // variables declared outside all functions 
+        // are called variables with global scope and can be used everywhere
+
+        // Syntax :
+        function fun_name(/*parameters*/) {
+            // body
+        } // declaring a fn
+
+        fun_name(); // calling a fn
+        // a fn in JS can be with or w/o parameters
+
+        // EXAMPLE with parameters
+        function addition(a, b) {
+            var local = 6; 
+            // this is a local variable which can be used only in this block
+            
+            global2 = 56; // this is a global variable without the var keyword
+            console.log(a + b + local);
+        }
+        addition(5, 5); // should display in the console
+
+        
+
+    </script> 
+</body>
+</html>
