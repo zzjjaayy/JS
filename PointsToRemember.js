@@ -8,3 +8,8 @@ multi-line comment*/
 // Js ignores white spaces in statements, so spaces can be given to increase 
 // readability. Usually developers prefer to give spaces and hop to the next 
 // line around operators.
+
+
+// Console.log
+console.log("jay"); // prints the value in the browser console, usually used for 
+                    // debugging and logging different values.
