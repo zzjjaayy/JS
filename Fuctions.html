@@ -29,9 +29,26 @@
             console.log(a + b + local);
         }
         addition(5, 5); // should display in the console
+    </script>
 
-        
-
-    </script> 
+    <script>
+        // it is possible to have a global and local variable, where the local 
+        // variable in its scope will take precedence.
+        var hi = "global"
+        function myFunction() {
+            var hi = "local"
+            console.log(hi);
+        }
+        myFunction(); // this function will print "local" and not "global".
+    </script>
+    
+    <script>
+        // a function can return a value
+        function minus(number) {
+            return number - 5;
+        }
+        console.log(minus(11)); // prints the returned value in the console.
+        var result = minus(12); // you can also store the value that the function returns.
+    </script>
 </body>
 </html>

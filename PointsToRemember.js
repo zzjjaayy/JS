@@ -1,3 +1,8 @@
+
+// About JS -
+// It is not a purely object oriented language.
+// It is a interpreted language and not compiled.
+
 // COMMENTS
 
 // in-line comments
@@ -24,7 +29,7 @@ var str = "he said \"I will complete it tomorrow\"";
 // the ones enclosing it.
 var str2 = 'he said "I will complete it tomorrow"';
 
-// another way is to ue back ticks before enclosing commas
+// another way is to use back ticks before enclosing commas
 var str3 = `' he said "I will complete 'it' tomorrow" '`;
 // now both single and double quotes can be used inside the String.
 
