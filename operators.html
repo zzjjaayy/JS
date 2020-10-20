@@ -17,11 +17,36 @@
         myVar--; // decrement
 
         // Assignment operators 
+        myVar = 100;
         myVar += 11;
         myVar -= 2;
         myVar *= 2;
         myVar /= 2;
         myVar %= 2;
+
+        // Comparison Operators
+        myVar == 12; // returns a boolean value {checks if it is equal}
+        // one thing about the equality operator is that it automatically converts types
+        // i.e "12" == 12; will return true
+
+        myVar === 12;
+        // this is the strict equality operator where it doesn't convert the types and 
+        // "12" == 12; will return false
+
+        myVar != 12; // returns true if the value is not equal {just opposite of equality}
+        myVar !== 12; // strict inequality operator {just opposite of strict equality}
+
+        // rest of the comparison operators
+        myVar > 12;
+        myVar < 12;
+        myVar >= 12;
+        myVar <= 12;
+
+        // Logical Operators
+        myVar > 25 && myVar < 50; // logical "and"
+        myVar > 25 || myVar > 35; // logical "or"
+
+        
     </script>
 </body>
 </html>
