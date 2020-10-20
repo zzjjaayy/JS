@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Conditional Statements
+        
+        // If-Else Statements
+        function trueOrFalse(value) {
+            if(value) {
+                return "It is true";
+            } else {
+            return "It is false";
+            }
+        }
+        
+        // If-Else-If
+        var number = prompt("Enter a number:") // asks for input from the user
+        if(number == 0) {
+            console.log("The number is neither positive nor negative");
+        } else if(number > 0){
+            console.log("The number is positive");
+        } else {
+            console.log("The number is negative");
+        }
+        
+        console.log(trueOrFalse(true));
+    </script>
+</body>
+</html>
