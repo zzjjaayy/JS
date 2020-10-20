@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Conditional Statements
+
+        // Switch statements
+        function switchCase(num) {
+            var value = "";
+            switch(num) {
+                case "jay": value = "alpha";break; // "break" exits out of the statement. 
+                case "2": value = "beta";break;
+                case "3": value = "gamma";break;
+                case 4: value = "delta";break;
+                default: value = "idk"; // if none of the cases match
+            }
+            return value;
+        }
+        console.log(switchCase("jay"));
+        // the switch statement can be used with both numbers and Strings
+
+        // Note : 
+        // If you want to have the same output for multiple cases, just remove
+        // the "break" and the statement will continue and have the same output.
+        var number = prompt("Enter a number: ");
+        switch(number) {
+            case "1" : 
+            case "2" : 
+            case "3" : console.log("the number is less than or equal to 3");break;
+            // all three cases will have the same output
+            default: console.log("idk");
+        }
+    </script>
+</body>
+</html>
