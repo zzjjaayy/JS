@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Objects
+        // An object is just like a key value pair also can be called as properties.
+
+        var obj = {
+            "type": "object",
+            "age": 35,
+            5: "red",
+            "my name": "jay"
+        } // example of a JS object
+        
+
+        // ACCESSING OBJECT PROPERTIES
+        var age = obj.age; // accessing properties of an object
+        console.log(age);
+        var color = obj[5]; 
+        // this is another way to access properties of an object
+        // but this is the only way to get the property which has 
+        // a space in it or not a String
+        var name = obj["my name"]; 
+        // you cannot use th dot operator to get the property "my name"
+        console.log(name);
+        console.log(color);
+
+
+        // UPDATE OBJECT PROPERTIES
+        obj[5] = "blue";
+        console.log(obj[5]);
+
+        obj.type = "hehehe";
+        console.log(obj.type); 
+
+
+        // ADDING A NEW PROPERTY TO AN OBJECT
+        obj["newPrp"] = "anything"; 
+        // simply assign a value to a new key to make it a property
+        console.log(obj["newPrp"]);
+
+
+        // DELETING A NEW PROPERTY OBJECT 
+        delete obj.type; 
+        console.log(obj.type); // this will print undefined
+
+        // CHECK FOR A PROPERTY 
+        console.log(obj.hasOwnProperty("age"));
+        // the "hasOwProperty" function returns true if the object has its 
+        // parameter as a property
+
+        // NOTE :
+        // You can have a object nested inside other
+        var obj2 = {
+            "car" : {
+                "inside": {
+                    "glove box": "maps",
+                    "passenger seat": "crumbs"
+                },
+                "outside": {
+                    "trunk": "jack"
+                }
+            }
+        }
+
+        var gloveBoxContents = obj2.car.inside["glove box"];
+        console.log(gloveBoxContents);
+    </script>
+</body>
+</html>
