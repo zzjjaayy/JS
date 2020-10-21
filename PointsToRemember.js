@@ -42,3 +42,17 @@ var str5 = "jay is \n great"; // will print "great" in a new line.
 
 // 4. TAB IN LINE
 var str6 = "jay\tgreat";
+
+// TERNARY OPERATOR
+// it is short form of a if-else statement
+
+if(a > b) {
+    console.log("true");
+} else {
+    console.log("false");
+}
+// CAN ALSO BE WRITTEN AS
+a > b ? console.log("true") : console.log("false");
+
+// Multiple Nested Ternary Operator
+a > 0 ? console.log("positive") : a < 0 ? console.log("negative") : console.log("zero")
