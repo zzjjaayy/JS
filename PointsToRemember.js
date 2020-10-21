@@ -56,3 +56,18 @@ a > b ? console.log("true") : console.log("false");
 
 // Multiple Nested Ternary Operator
 a > 0 ? console.log("positive") : a < 0 ? console.log("negative") : console.log("zero")
+
+
+// VAR and LET
+
+var jay = "hi"
+var jay = "bye" // this is valid
+
+let j = "hi"
+let j = "bye" // this is INVALID
+j = "bye" // this is valid
+// "let" doesn't let you declare a variable twice but you can reassign it.
+
+// The major difference is that even if the variable is declared inside a block, 
+// it can be accessed outside 
+// whereas let is constrained to a block 
